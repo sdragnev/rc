@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/stan/Desktop/workspace/.Java'
+let g:netrw_dirhist_2='/home/stan/.config/openbox'
+let g:netrw_dirhist_3='/home/stan/d7-platform/sites/d7/modules/custom/webform_export'
+let g:netrw_dirhist_4='/home/stan/dev/receipts/receipt'
+let g:netrw_dirhist_5='/home/stan/bin'

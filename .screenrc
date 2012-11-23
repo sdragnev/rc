@@ -1,0 +1,13 @@
+caption always "%w"
+hardstatus alwayslastline "Host: %H Time: %c Load: %l"
+altscreen on
+# 256 colours
+attrcolor b ".I"
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+defbce "on"
+# This is for mouse scroll-wheel support.
+# Tell screen that xterm can scroll.
+termcapinfo xterm ti@:te@
+# Bind Shift+PgUp/PgDn.
+bindkey -m "^[[5;2~" stuff ^b
+bindkey -m "^[[6;2~" stuff ^f
