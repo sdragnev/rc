@@ -11,3 +11,5 @@ termcapinfo xterm ti@:te@
 # Bind Shift+PgUp/PgDn.
 bindkey -m "^[[5;2~" stuff ^b
 bindkey -m "^[[6;2~" stuff ^f
+bindkey ^[[1;5D prev  # change window with ctrl-left
+bindkey ^[[1;5C next  # change window with ctrl-left
