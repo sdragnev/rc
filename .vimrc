@@ -14,19 +14,4 @@ nnoremap <F5> :w<CR>
 inoremap <F5> <Esc>:w<CR>
 inoremap <c-s> <Esc>:w<CR>
 
-let mapleader = ","
-function DrushCC()
-  !drush cc all
-endfunction
-
-nmap <leader>c :call DrushCC()<enter><enter>
-
-if has("autocmd")
-  " Drupal *.module and *.install files.
-  augroup module
-    autocmd BufRead,BufNewFile *.module set filetype=php
-    autocmd BufRead,BufNewFile *.install set filetype=php
-    autocmd BufRead,BufNewFile *.test set filetype=php
-  augroup END 
-endif
 syntax on
